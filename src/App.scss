@@ -1,0 +1,37 @@
+$back_color : #494D5F;
+$dangerRed : red;
+$primaryblue : rgb(66, 31, 205);
+
+
+.App {
+  text-align: center;
+  background-color: $back_color;
+  padding: 1%;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+}
+
+.danger {
+  color: $dangerRed;
+  margin: 0.7rem;  
+  position: relative;
+  left: 380px;
+  top: -11px;
+  text-align: left;
+}
+
+.box-width {
+  width: 280px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.btn-submit{
+  background-color: $primaryblue;
+  width: 150px;
+  height: 30px;
+  border-radius: 9px;
+}
